@@ -12,6 +12,7 @@ fichier:
 	 * grande_suite = nb_des qui se suivent
 	 * yams = nb_des identiques
 	 * chance = somme_des (pas de règle spéciale, "joker")*/
+-règles figures (voir au dessus) 				//mettre dans un autre fichier???
 
 structures:
 
