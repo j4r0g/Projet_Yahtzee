@@ -30,10 +30,10 @@ fonctions:
 		{->init_scorefig;}										/*fonction qui initialise les scores de figures*/
 		{->init_partie_mineure(type_des);}						/*fonction qui initialise la partie mineure d'un joueur*/
 		{->init_partie_majeure(typde_des);}						/*fonction qui initialise la partie majeure d'un joueur*/
-	init_lancer(int lancer[]);									/*fonction qui initialise un lancer en connaissant le tableau*/
-	lancer(joueur joueurN; int lancer[]);						/*fonction qui réalise un lancer*/
-	afficher_lancer(int lancer[]);								/*fonction qui affiche un lancer*/
-	relance(int niemejoueu; int lancer[]; int relance[]);		/*fonction qui effectue les relances demandées par le joueur*/
+	init_lancer(int lancer[], int nb_des);									/*fonction qui initialise un lancer en connaissant le tableau*/
+	lancer(joueur joueurN; int lancer[], int nb_des);						/*fonction qui réalise un lancer*/
+	afficher_lancer(int lancer[], int nb_des);								/*fonction qui affiche un lancer*/
+	relance(int niemejoueur; int lancer[]; int relance[]);		/*fonction qui effectue les relances demandées par le joueur*/
 	attribution_score(joueur);									/*fonction qui attribue le score dans la case demandée*/
 	calcul_parties();											/*fonction qui calcule les sous totaux des parties majeures et mineures*/
 	victoire();													/*fonction qui détermine quel joueur est gagnant*/
